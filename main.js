@@ -24,6 +24,7 @@ function renderCards() {
                 </div>
             </div>`
             rowEl.innerHTML += markup
+            
         });
     })
 }
