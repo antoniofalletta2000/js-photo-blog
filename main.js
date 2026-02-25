@@ -20,7 +20,7 @@ function renderCards() {
                         <img class="img-fluid" src="${url}" alt="">
                         <p class="image_description pt-3">${title}
                         </p>
-                            <p class="image_date">${date}
+                        <p class="image_date">${date}
                         </p>
                     </div>
                 </div>
