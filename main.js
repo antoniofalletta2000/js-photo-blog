@@ -12,13 +12,15 @@ function renderCards() {
             /*  console.log(element); */
             const { title, date, url } = element
 
-            const markup = `<div class="col">
-                <div class="card">
+            const markup = 
+            `<div class="col">
+                <div class="card position-relative">
                     <div class="card-body">
-                        <img src="${url}" alt="">
+                    <img class="punta img-fluid position-absolute top-0 start-50 translate-middle" src="./assets/img/pin.svg" alt="">
+                        <img class="img-fluid" src="${url}" alt="">
                         <p class="image_description">${title}
                         </p>
-                            <p class="image_description">${date}
+                            <p class="image_date">${date}
                         </p>
                     </div>
                 </div>
