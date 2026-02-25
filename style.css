@@ -1,8 +1,21 @@
 h1{
     font-family: "Edu TAS Beginner", sans-serif;
+    font-size: 3rem;
 }
 
-.row{
+.image_description{
+    font-family: "Edu TAS Beginner", sans-serif;
+}
+
+.image_date{
     font-family:"Sometype Mono", "monospace";
 }
 
+header{
+    background-image: url("./assets/img/wall.png");
+    height: 100px;
+}
+
+main{
+    background-image: url("./assets/img/cork.png");
+}
