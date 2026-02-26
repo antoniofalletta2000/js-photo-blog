@@ -45,7 +45,6 @@ main {
         top: 50%;
         left: 50%;
         font-size: 50px;
-        color: white;
         transform: translate(-50%, -50%);
         max-width: 80%;
         max-height: 80%;
@@ -59,7 +58,7 @@ main {
         transform: translate(-50%, -50%);
         z-index: 1;
         border: none;
-        background-color: wheat
+        background-color: rgba(245, 222, 179, 0.612)
         
     }
 
