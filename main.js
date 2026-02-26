@@ -2,7 +2,7 @@ const endpoint = "https://lanciweb.github.io/demo/api/pictures/"
 
 const rowEl = document.getElementById("riga")
 
-function renderCards() {
+
     fetch(endpoint)
     .then(res => res.json())
     .then(data => {
@@ -29,8 +29,7 @@ function renderCards() {
             
         });
     })
-}
-renderCards()
+
 
 const overlayEl=document.getElementById("overlay")
 const imgOverlayEl=document.getElementById("img_overlay")
