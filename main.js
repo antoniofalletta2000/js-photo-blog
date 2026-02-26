@@ -36,7 +36,7 @@ const overlayEl=document.getElementById("overlay")
 const imgOverlayEl=document.getElementById("img_overlay")
 
 rowEl.addEventListener("click", (e)=>{
-    console.log("elemento cliccato");
+    /* console.log("elemento cliccato"); */
     
     if(e.target.tagName==="IMG"){
         overlayEl.classList.remove("d-none")
